@@ -39,6 +39,6 @@ RUN curl https://storage.googleapis.com/git-repo-downloads/repo > /usr/local/bin
 RUN chmod a+x /usr/local/bin/repo
 
 RUN git config --global user.name "buildbot"
-RUN git config --global user.email "buildbot@phh.me"
+RUN git config --global user.email "buildbot@split7fire.me"
 
 USER root
